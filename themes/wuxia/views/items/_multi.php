@@ -15,15 +15,21 @@
 ?>
 
 <script id="blankItem" type="text/template">
-    <tr class="odd gradeX">
-        <td class="select-checkbox"><?php echo CHtml::checkBox("select-checkbox", true)?></td>
-        <td class="input-word"><?php echo CHtml::activeTextField($model, "word")?></td>
-        <td class="input-meaning"><?php echo CHtml::activeTextField($model, "meaning")?></td>
-        <td></td>
-        <td>
-            <button type="button" class="btn btn-primary" data-loading-text="Loading...">Trans</button>
-        </td>
-    </tr>
+    <td class="select-checkbox-td"><?php echo CHtml::checkBox("select-checkbox", true)?></td>
+    <td class="input-word-td"><?php echo CHtml::activeTextField($model, "word")?></td>
+    <td class="input-meaning-td"><?php echo CHtml::activeTextField($model, "meaning")?></td>
+    <td></td>
+    <td>
+        <div class="btn-toolbar">
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger del" data-toggle="button">Del</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-info trans" data-toggle="button">Trans</button>
+                <button type="button" class="btn btn-success save" data-toggle="button">Save</button>
+            </div>
+        </div>
+    </td>
 </script>
 
 <div id="multi" class="tab-pane">
@@ -35,15 +41,6 @@
             <div class="row">
                 <div class="span6">
                     <h3>Multi Items</h3>
-                </div>
-                <div class="span6">
-                    <div class="btn-group btn-mini pull-right">
-                        <a class="btn btn-inverse dropdown-toggle" data-toggle="dropdown" href="#">Row filter <span class="caret"></span></a>
-                        <ul class="dropdown-menu datatable-controls">
-                            <li><label for="dt_col_1" class="checkbox"><input type="checkbox" checked="checked" name="toggle-cols" id="dt_col_1" value="0"> New words</label></li>
-                            <li><label for="dt_col_2" class="checkbox"><input type="checkbox" checked="checked" name="toggle-cols" id="dt_col_2" value="1"> Studied words</label></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
 

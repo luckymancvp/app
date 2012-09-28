@@ -47,52 +47,6 @@
             ?>
             <fieldset>
                 <div class="control-group">
-                    <label for="select" class="control-label">Pre-defined source</label>
-                    <div class="controls">
-                        <?php
-                        echo CHtml::dropDownList("predefined", 1, array(
-                            "0"=>"No pre-defined",
-                            "1"=>"Bing Translate",
-                            "2"=>"Tratu.vn",
-                            "3"=>"System",
-                        ));
-                        ?>
-                    </div>
-                </div>
-                <div class="control-group">
-                    <label for="select" class="control-label">Select Language</label>
-                    <div class="controls">
-                        <?php
-                        echo CHtml::dropDownList("from", "en",
-                            array(
-                                "en"=>"en",
-                                "ja"=>"ja",
-                                "vi"=>"vi",
-                            ),
-                            array(
-                                "style"=>"width : 50px",
-                            )
-                        );
-                        echo " ";
-                        echo CHtml::button("<->", array(
-                            "class"=>"btn",
-                            "onClick"=>new CJavaScriptExpression("swapLanguage()"),
-                        ));
-                        echo " ";
-                        echo CHtml::dropDownList("to", "vi",
-                            array(
-                                "en"=>"en",
-                                "ja"=>"ja",
-                                "vi"=>"vi",
-                            ),
-                            array(
-                                "style"=>"width : 50px",
-                            )
-                        );
-                        ?>
-                    </div>
-                </div>
-                <div class="control-group">
                     <?php echo $form->label($model, "word", array("class"=>"control-label"))?>
                     <div class="controls">
                         <?php echo $form->textField($model, "word", array("class"=>"input-xlarge"));?>

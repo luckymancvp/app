@@ -27,6 +27,7 @@
     <?php
         $cs = Yii::app()->clientScript;
         $cs->registerCssFile(Html::cssThemeUrl("wuxia-red.css"));
+        $cs->registerCssFile(Html::cssThemeUrl("bootstrap/bootstrap-modal.min.css"));
 
         $cs->registerCoreScript("jquery");
         $cs->registerScriptFile(Html::jsThemeUrl("libs/modernizr.js"));
@@ -157,9 +158,7 @@
 <?php
     $cs->registerScriptFile(Html::jsThemeUrl("navbar.js"));
     $cs->registerScriptFile(Html::jsThemeUrl("plugins/waypoints.min.js"));
-    $cs->registerScriptFile(Html::jsThemeUrl("bootstrap/bootstrap-tooltip.js"));
-    $cs->registerScriptFile(Html::jsThemeUrl("bootstrap/bootstrap-dropdown.js"));
-    $cs->registerScriptFile(Html::jsThemeUrl("bootstrap/bootstrap-collapse.js"));
+    $cs->registerScriptFile(Html::jsUrl("bootstrap/bootstrap.min.js"));
 ?>
 
 </body>

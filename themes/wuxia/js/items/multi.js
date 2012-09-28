@@ -9,20 +9,6 @@
 $(document).ready(function(){
 
     /**
-     * Data table
-     */
-    $('.datatable').dataTable( {
-        "sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
-        "sPaginationType": "bootstrap",
-        "oLanguage": {
-            "sLengthMenu": "_MENU_ records per page"
-        }
-    });
-    $('.datatable-controls').on('click','li input',function(){
-        dtShowHideCol( $(this).val() );
-    })
-
-    /**
      * Backbone
      */
     var Item  = Backbone.Model.extend({
@@ -33,15 +19,21 @@ $(document).ready(function(){
     });
 
     var ItemView = Backbone.View.extend({
+        tagName: "tr",
         template: $("#blankItem").html(),
         initialize: function(){
         },
         events: {
+            "click .trans"     : "trans"
         },
         render: function(){
             var tmpl = _.template(this.template);
             this.$el.html(tmpl(this.model.toJSON()));
             return this;
+        },
+        trans: function() {
+            alert("fuck");
+            console.log(this.$el.find("#Items_word"));
         }
     });
 
@@ -65,12 +57,8 @@ $(document).ready(function(){
         },
         renderItem: function(item){
             var itemView = new ItemView({model : item});
-            var itemChildren = itemView.render().$el.find("td");
-            var tdArray = new Array();
-            for ( var i=0; i<itemChildren.length; i++){
-                tdArray[i] = $(itemChildren[i]).html();
-            }
-            this.tableEl.dataTable().fnAddData(tdArray);
+
+            this.$el.append(itemView.render().el);
         },
         addBlank: function(count){
             for (i=0; i<count; i++){

@@ -7,6 +7,9 @@
  */
 
 $(document).ready(function(){
+
+    $(".modal").hide();
+
     // Tabs
     $('.demoTabs a').click(function (e) {
         e.preventDefault();
