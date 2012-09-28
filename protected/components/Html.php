@@ -146,4 +146,18 @@ EOD;
 	public static  function setLimitTime( $time){
 		set_time_limit((ini_get('max_execution_time') > $time ? ini_get('max_execution_time') : $time));
 	}
+
+
+    /**
+     * Generates an image tag.
+     * @param string $src the image URL
+     * @param string $alt the alternative text display
+     * @param array $htmlOptions additional HTML attributes (see {@link tag}).
+     * @return string the generated image tag
+     */
+    public static function timthumb($src,$alt='',$htmlOptions=array())
+    {
+        $htmlOptions["class"] = "img-polaroid";
+        return Html::image(Yii::app()->createUrl('/')."/timthumb.php?src=$src&h=200", $alt, $htmlOptions);
+    }
 }
