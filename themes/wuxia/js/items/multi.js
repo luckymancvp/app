@@ -28,12 +28,43 @@ $(document).ready(function(){
         },
         render: function(){
             var tmpl = _.template(this.template);
+            // generate id
+            var date = new Date();
+            var components = [
+                date.getYear(),
+                date.getMonth(),
+                date.getDate(),
+                date.getHours(),
+                date.getMinutes(),
+                date.getSeconds(),
+                date.getMilliseconds()
+            ];
+
+            var id = components.join("");
+            this.model.set("id",id);
             this.$el.html(tmpl(this.model.toJSON()));
             return this;
         },
         trans: function() {
-            alert("fuck");
-            console.log(this.$el.find("#Items_word"));
+            wordEl    = this.$el.find("#Items_word");
+            that = this;
+            $.ajax({
+                url:translateUrl,
+                beforeSend : function(){
+                    //
+                },
+                context: that,
+                data:{
+                    text : wordEl.val(),
+                    from : $("#from").val(),
+                    to   : $("#to").val()
+                }
+            }).success(function (res) {
+                    meaningEl = this.$el.find("#Items_meaning");
+                    meaningEl.val(res);
+                    //$("#predefining").hide();
+            });
+
         }
     });
 
@@ -46,6 +77,10 @@ $(document).ready(function(){
             //Add event listener
             this.collection.on("add", this.renderItem, this);
 
+            //Add control
+            $(".trans-a").click(function(){
+                $(".trans").click();
+            });
 
             this.render();
         },
@@ -66,6 +101,10 @@ $(document).ready(function(){
                 this.collection.add(blankItem);
             }
             return false;
+        },
+        transAll: function() {
+            console.log("e");
+            $(".trans").click();
         }
 
     });

@@ -27,7 +27,6 @@
     <?php
         $cs = Yii::app()->clientScript;
         $cs->registerCssFile(Html::cssThemeUrl("wuxia-red.css"));
-        $cs->registerCssFile(Html::cssThemeUrl("bootstrap/bootstrap-modal.min.css"));
 
         $cs->registerCoreScript("jquery");
         $cs->registerScriptFile(Html::jsThemeUrl("libs/modernizr.js"));

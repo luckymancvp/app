@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6630803b-8499-40db-a5a3-d3354ff1e045" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/js/items/add.js" afterPath="$PROJECT_DIR$/themes/wuxia/js/items/add.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/js/items/multi.js" afterPath="$PROJECT_DIR$/themes/wuxia/js/items/multi.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/views/items/_multi.php" afterPath="$PROJECT_DIR$/themes/wuxia/views/items/_multi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/views/items/_single.php" afterPath="$PROJECT_DIR$/themes/wuxia/views/items/_single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/views/layouts/main.php" afterPath="$PROJECT_DIR$/themes/wuxia/views/layouts/main.php" />
     </list>
     <ignored path="app.iws" />
@@ -32,10 +30,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="89" selection-start="2895" selection-end="2895" vertical-scroll-proportion="0.48022598">
+            <state line="79" column="89" selection-start="2895" selection-end="2895" vertical-scroll-proportion="7.2">
               <folding>
                 <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="tag#div#0;tag#div#1;tag#div#0" expanded="false" />
@@ -57,7 +55,7 @@
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wuxia/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="8" selection-start="980" selection-end="980" vertical-scroll-proportion="-6.3">
+            <state line="28" column="65" selection-start="971" selection-end="971" vertical-scroll-proportion="13.08">
               <folding />
             </state>
           </provider>
@@ -66,18 +64,19 @@
       <file leaf-file-name="_multi.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/_multi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="9" selection-start="327" selection-end="1085" vertical-scroll-proportion="-10.0">
+            <state line="85" column="70" selection-start="3370" selection-end="3377" vertical-scroll-proportion="-15.083333">
               <folding>
                 <element signature="e#6#267#0" expanded="true" />
+                <marker date="1348969135000" expanded="true" signature="613:633" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multi.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="multi.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/multi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="29" selection-start="194" selection-end="194" vertical-scroll-proportion="-4.6153846">
+            <state line="81" column="36" selection-start="2237" selection-end="2237" vertical-scroll-proportion="1.1767677">
               <folding />
             </state>
           </provider>
@@ -86,7 +85,7 @@
       <file leaf-file-name="add.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/add.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+            <state line="38" column="27" selection-start="598" selection-end="1083" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,12 +136,12 @@
         <option value="$PROJECT_DIR$/themes/wuxia/views/items/translate.php" />
         <option value="$PROJECT_DIR$/bing/translator.php" />
         <option value="$PROJECT_DIR$/protected/controllers/ItemsController.php" />
-        <option value="$PROJECT_DIR$/themes/wuxia/views/items/_multi.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/views/items/_single.php" />
-        <option value="$PROJECT_DIR$/themes/wuxia/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/themes/wuxia/js/items/multi.js" />
         <option value="$PROJECT_DIR$/themes/wuxia/js/items/add.js" />
         <option value="$PROJECT_DIR$/themes/wuxia/views/items/index.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/items/_multi.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/js/items/multi.js" />
       </list>
     </option>
   </component>
@@ -583,7 +582,11 @@
       <created>1348803123710</created>
       <updated>1348803123710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add modal translate">
+      <created>1348808936979</created>
+      <updated>1348808936979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -608,7 +611,7 @@
       <window_info id="Framework MVC Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17884323" sideWeight="0.6006441" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16818874" sideWeight="0.6006441" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16818874" sideWeight="0.6006441" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -659,7 +662,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add single Item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add modal translate" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -675,6 +678,7 @@
     <MESSAGE value="Add global file" />
     <MESSAGE value="Globals" />
     <MESSAGE value="Add single Item" />
+    <MESSAGE value="Add modal translate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -965,20 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="8" selection-start="980" selection-end="980" vertical-scroll-proportion="-6.3">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/multi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="194" selection-end="194" vertical-scroll-proportion="-4.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/_single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="22" selection-start="1223" selection-end="1223" vertical-scroll-proportion="-7.2">
@@ -990,25 +980,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/add.js">
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+        <state line="28" column="65" selection-start="971" selection-end="971" vertical-scroll-proportion="13.08">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/_multi.php">
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/add.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="327" selection-end="1085" vertical-scroll-proportion="-10.0">
-          <folding>
-            <element signature="e#6#267#0" expanded="true" />
-          </folding>
+        <state line="38" column="27" selection-start="598" selection-end="1083" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="89" selection-start="2895" selection-end="2895" vertical-scroll-proportion="0.48022598">
+        <state line="79" column="89" selection-start="2895" selection-end="2895" vertical-scroll-proportion="7.2">
           <folding>
             <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="tag#div#0;tag#div#1;tag#div#0" expanded="false" />
@@ -1023,6 +1011,23 @@
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/_multi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="70" selection-start="3370" selection-end="3377" vertical-scroll-proportion="-15.083333">
+          <folding>
+            <element signature="e#6#267#0" expanded="true" />
+            <marker date="1348969135000" expanded="true" signature="613:633" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/multi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="36" selection-start="2237" selection-end="2237" vertical-scroll-proportion="1.1767677">
+          <folding />
         </state>
       </provider>
     </entry>
