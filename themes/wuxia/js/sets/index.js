@@ -8,10 +8,25 @@
 
 $(document).ready(function(){
 
+    $("#myModal").hide();
+    /**
+     * Swap translate language
+     */
+    window.swapLanguage = function(){
+        from = $("#from").val();
+        $("#from").val($("#to").val());
+        $("#to").val(from);
+    };
+
     /**
      * Backbone
      */
     var Item  = Backbone.Model.extend({
+        defaults: {
+            word: "",
+            meaning : "",
+            sound: ""
+        }
     });
 
     var Items = Backbone.Collection.extend({
@@ -19,17 +34,23 @@ $(document).ready(function(){
     });
 
     var ItemView = Backbone.View.extend({
-        tagName: "tr",
-        template: $("#blankItem").html(),
-        initialize: function(){
+        tagName      : "tr",
+        template     : $("#itemRow").html(),
+        blankTemplate: $("#itemBlank").html(),
+        initialize   : function(){
         },
         events: {
             "click .trans"     : "trans",
             "click .del"       : "del",
-            "click .save"       : "save"
+            "click .save"      : "save",
+            "click .edit"      : "edit",
+            "click .cancel"    : "render"
         },
         render: function(){
-            var tmpl = _.template(this.template);
+            if (this.model.get("id") == null)
+                var tmpl = _.template(this.blankTemplate);
+            else
+                var tmpl = _.template(this.template);
             this.$el.html(tmpl(this.model.toJSON()));
             return this;
         },
@@ -65,39 +86,74 @@ $(document).ready(function(){
             });
         },
         del: function(){
-            this.model.destroy();
             that = this;
-            this.$el.fadeOut("slow",function(){
-                that.remove();
-            });
 
-
+            if(this.model.get("id") != null){
+                $.ajax({
+                    url: delItemUrl,
+                    data:{
+                        item_id: that.model.get("id")
+                    },
+                    type: 'POST',
+                    context: that,
+                    success: function(){
+                        this.model.clear();
+                        this.model.destroy();
+                        this.$el.fadeOut("slow",function(){
+                            that.remove();
+                        });
+                    },
+                    complete: function(){
+                    }
+                });
+            }
+            else{
+                this.model.clear();
+                this.model.destroy();
+                this.$el.fadeOut("slow",function(){
+                    that.remove();
+                });
+            }
         },
         save: function(){
+            // get dom element of view
             wordEl     = this.$el.find("#Items_word");
             meaningdEl = this.$el.find("#Items_meaning");
             that = this;
+
+            // Set new value for model
+            this.model.set("word", wordEl.val());
+            this.model.set("meaning", meaningdEl.val());
             $.ajax({
-                url: addUrl,
+                url: saveUrl,
                 type: "POST",
                 context: that,
                 data:{
+                    "Items[id]"      : that.model.get("id"),
                     "Items[word]"    : wordEl.val(),
                     "Items[meaning]" : meaningdEl.val(),
-                    "Items[set_id]" : $("#Items_set_id").val()
+                    "Items[set_id]"  : $("#Items_set_id").val()
                 },
                 beforeSend: function(){
                     this.loading();
                 },
                 success: function(res){
-                    if (res == "1"){
-                        this.$el.find(".save").html("Saved");
-                        this.$el.find(".save").attr("disabled","disabled");
+                    if (res > "0"){
+                        this.model.set("id",res);
+                        this.render();
                     }
                 },
                 complete: function(res){
                     this.loadComplete();
                 }
+            });
+        },
+        edit: function(){
+            that = this;
+            var tmpl = _.template(this.blankTemplate);
+            this.$el.html(tmpl(this.model.toJSON()));
+            this.$el.hide().fadeIn("slow",function(){
+
             });
         }
     });
@@ -106,7 +162,7 @@ $(document).ready(function(){
         el: "#table-items tbody",
         tableEl: $("#table-items"),
         initialize: function(){
-            this.collection = new Items([{}, {}]);
+            this.collection = new Items(itemsJSON);
 
             //Add event listener
             this.collection.on("add", this.renderItem, this);

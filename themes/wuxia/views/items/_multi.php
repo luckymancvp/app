@@ -15,9 +15,14 @@
 ?>
 
 <script id="blankItem" type="text/template">
-    <td class="select-checkbox-td"><?php echo CHtml::checkBox("select-checkbox", true)?></td>
-    <td class="input-word-td"><?php echo CHtml::activeTextField($model, "word")?></td>
-    <td class="input-meaning-td"><?php echo CHtml::activeTextField($model, "meaning")?></td>
+    <td class="select-checkbox-td">
+        <input type="checkbox" id="select-checkbox" name="select-checkbox" value="1" checked="checked">
+        <div style="display:none" class="progress progress-success progress-striped active">
+            <div style="width: 100%" class="bar"></div>
+        </div>
+    </td>
+    <td class="input-word-td"><?php echo CHtml::activeTextField($model, "word",array("tabindex"=>1))?></td>
+    <td class="input-meaning-td"><?php echo CHtml::activeTextField($model, "meaning",array("tabindex"=>1))?></td>
     <td></td>
     <td>
         <div class="btn-toolbar">
@@ -40,7 +45,7 @@
         <article class="span12">
             <div class="row">
                 <div class="span6">
-                    <h3>Multi Items</h3>
+                    <h2>Multi Items</h2>
                 </div>
             </div>
 
@@ -80,11 +85,11 @@
                             </ul>
                         </div>
                         <div class="btn-group">
-                            <button type="button" class="btn btn-danger del-a">Delete All</button>
+                            <button type="button" class="btn btn-danger control-a" id="del">Delete All</button>
                         </div>
                         <div class="btn-group">
-                            <button type="button" class="btn btn-info trans-a">Translate All</button>
-                            <button type="button" class="btn btn-success save-a">Save All</button>
+                            <button type="button" class="btn btn-info control-a" id="trans">Translate All</button>
+                            <button type="button" class="btn btn-success control-a" id="save">Save All</button>
                         </div>
                     </div>
                 </div>

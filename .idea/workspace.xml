@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6630803b-8499-40db-a5a3-d3354ff1e045" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/wuxia/js/sets/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/wuxia/views/sets/_short.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/js/items/multi.js" afterPath="$PROJECT_DIR$/themes/wuxia/js/items/multi.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/views/items/_multi.php" afterPath="$PROJECT_DIR$/themes/wuxia/views/items/_multi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/views/layouts/main.php" afterPath="$PROJECT_DIR$/themes/wuxia/views/layouts/main.php" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,51 +34,19 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="89" selection-start="2895" selection-end="2895" vertical-scroll-proportion="7.2">
+            <state line="120" column="23" selection-start="5203" selection-end="5203" vertical-scroll-proportion="-8.125">
               <folding>
-                <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="tag#div#0;tag#div#1;tag#div#0" expanded="false" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/wuxia/views/layouts/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="65" selection-start="971" selection-end="971" vertical-scroll-proportion="13.08">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_multi.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/_multi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="70" selection-start="3370" selection-end="3377" vertical-scroll-proportion="-15.083333">
-              <folding>
-                <element signature="e#6#267#0" expanded="true" />
-                <marker date="1348969135000" expanded="true" signature="613:633" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multi.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/multi.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="36" selection-start="2237" selection-end="2237" vertical-scroll-proportion="1.1767677">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -85,21 +54,75 @@
       <file leaf-file-name="add.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/add.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="27" selection-start="598" selection-end="1083" vertical-scroll-proportion="0.0">
+            <state line="54" column="6" selection-start="1222" selection-end="1410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_single.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/_single.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="22" selection-start="1223" selection-end="1223" vertical-scroll-proportion="-7.2">
+            <state line="61" column="104" selection-start="2418" selection-end="2418" vertical-scroll-proportion="-13.75">
               <folding>
-                <element signature="e#6#273#0" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#fieldset#0;n#article#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#2;n#fieldset#0;n#article#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#6#83#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#script#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#script#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#script#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#script#2;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/wuxia/js/sets/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="4" selection-start="420" selection-end="592" vertical-scroll-proportion="0.28846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/SetsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="21" selection-start="391" selection-end="391" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_short.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/_short.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="21" selection-start="188" selection-end="188" vertical-scroll-proportion="-5.0">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_multi.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/_multi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="14" selection-start="885" selection-end="1274" vertical-scroll-proportion="-7.2">
+              <folding>
+                <element signature="e#6#267#0" expanded="true" />
+                <element signature="e#471#491#0" expanded="true" />
+                <element signature="e#568#587#0" expanded="true" />
+                <marker date="1348977642000" expanded="true" signature="875:895" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multi.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/multi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="29" selection-start="4275" selection-end="4429" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +130,16 @@
       <file leaf-file-name="ItemsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/ItemsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="42" selection-start="961" selection-end="961" vertical-scroll-proportion="-12.291667">
+            <state line="42" column="16" selection-start="1241" selection-end="1241" vertical-scroll-proportion="-10.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="globals.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/globals.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="22" selection-start="175" selection-end="185" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -126,22 +158,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/components/Controller.php" />
-        <option value="$PROJECT_DIR$/protected/models/Items.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.php" />
-        <option value="$PROJECT_DIR$/protected/components/Html.php" />
-        <option value="$PROJECT_DIR$/timthumb.php" />
         <option value="$PROJECT_DIR$/bing/config.inc.php" />
         <option value="$PROJECT_DIR$/bing/class/MicrosoftTranslator.class.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/views/items/translate.php" />
         <option value="$PROJECT_DIR$/bing/translator.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/ItemsController.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/views/items/_single.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/js/items/add.js" />
-        <option value="$PROJECT_DIR$/themes/wuxia/views/items/index.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/views/items/_multi.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/sets/_short.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SetsController.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/js/items/itemsview.js" />
         <option value="$PROJECT_DIR$/themes/wuxia/js/items/multi.js" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/items/index.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/ItemsController.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/sets/index.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/js/sets/index.js" />
       </list>
     </option>
   </component>
@@ -313,6 +345,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wuxia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -361,7 +419,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wuxia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wuxia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="items" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,8 +496,18 @@
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -401,7 +521,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,6 +602,7 @@
       <recent name="$PROJECT_DIR$/protected" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/wuxia/views/sets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/themes/wuxia/views" />
       <recent name="$PROJECT_DIR$/protected/components" />
@@ -586,7 +725,11 @@
       <created>1348808936979</created>
       <updated>1348808936979</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="translate and translate all">
+      <created>1348974461426</created>
+      <updated>1348974461426</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -609,9 +752,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Framework MVC Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17884323" sideWeight="0.6006441" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17884323" sideWeight="0.6714976" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16818874" sideWeight="0.6006441" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16818874" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -662,7 +805,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add modal translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="translate and translate all" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -679,6 +822,7 @@
     <MESSAGE value="Globals" />
     <MESSAGE value="Add single Item" />
     <MESSAGE value="Add modal translate" />
+    <MESSAGE value="translate and translate all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -686,289 +830,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bing/class/MicrosoftTranslator.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="0" selection-start="2735" selection-end="2735" vertical-scroll-proportion="-3.9583333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bing/translator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="385" selection-end="408" vertical-scroll-proportion="0.41058394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="50" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/libs/backbone-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/libs/underscore-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/ItemsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="42" selection-start="961" selection-end="961" vertical-scroll-proportion="-12.291667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/plugins/dataTables/jquery.datatables.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67" selection-start="1224" selection-end="1224" vertical-scroll-proportion="-2.8103757">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="733" selection-end="733" vertical-scroll-proportion="0.34766355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/css/wuxia-red.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-12.316637">
-          <folding>
-            <marker date="1348389810000" expanded="true" signature="124876:124943" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="124982:125049" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="125089:125156" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="125198:125265" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="125304:125371" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="125409:125476" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="125520:125587" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="125625:125692" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="125730:125797" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="125839:125906" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="125942:126009" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="126050:126117" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="126153:126220" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="126260:126327" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="126368:126435" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="126477:126544" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="126581:126648" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="126688:126755" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="126792:126859" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="126898:126965" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127003:127070" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127108:127175" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127213:127280" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127318:127385" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127431:127498" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127540:127607" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127647:127714" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127753:127820" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127865:127932" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="127972:128039" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="128080:128147" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="128189:128256" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="128294:128361" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="128399:128466" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="128510:128577" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="128621:128688" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="128733:128800" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="128843:128910" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="128950:129017" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="129058:129125" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="129162:129229" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="129267:129334" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="129372:129439" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="129481:129548" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="129587:129654" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="129694:129761" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="129799:129866" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="129904:129971" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="130011:130078" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="130123:130190" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="130234:130301" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="130345:130412" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="130458:130525" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="130570:130637" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="130684:130751" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="130789:130856" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="130901:130968" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131014:131081" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131129:131196" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131237:131304" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131344:131411" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131455:131522" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131562:131629" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131667:131734" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131772:131839" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131878:131945" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="131984:132051" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="132089:132156" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="132203:132270" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="132317:132384" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="132426:132493" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="132531:132598" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="132637:132704" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="132742:132809" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="132850:132917" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="132963:133030" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="133076:133143" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="133182:133249" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="133295:133362" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="133409:133476" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="133519:133586" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="133630:133697" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="133742:133809" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="133850:133917" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="133964:134031" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="134074:134141" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="134185:134252" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="134299:134366" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="134409:134476" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="134520:134587" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="134631:134698" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="134743:134810" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="134852:134919" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="134963:135030" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="135073:135140" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="135185:135252" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="135298:135365" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="135403:135470" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="135509:135576" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="135618:135685" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="135735:135802" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="135840:135907" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="135945:136012" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="136050:136117" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="136159:136226" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="136269:136336" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="136382:136449" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="136488:136555" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="136597:136664" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="136704:136771" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="136812:136879" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="136919:136986" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="137030:137097" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="137143:137210" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="137251:137318" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="137365:137432" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="137478:137545" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="137590:137657" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="137706:137773" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="137824:137891" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="137934:138001" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="138047:138114" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="138161:138228" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="138274:138341" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="138378:138445" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="138483:138550" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="138592:138659" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="138702:138769" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="138814:138881" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="138924:138991" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="139036:139103" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="139144:139211" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="139258:139325" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="139366:139433" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="139480:139547" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="139587:139654" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="139694:139761" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="139806:139873" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="139917:139984" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="140023:140090" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="140129:140196" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="140241:140308" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="140356:140423" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="140467:140534" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="140575:140642" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="140684:140751" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="140791:140858" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="140898:140965" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141011:141078" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141115:141182" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141219:141286" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141328:141395" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141433:141500" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141545:141612" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141656:141723" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141766:141833" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141874:141941" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="141984:142051" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="142102:142169" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="142221:142288" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="142337:142404" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="142455:142522" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="142561:142628" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="142668:142735" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="142774:142841" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="142881:142948" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="142991:143058" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="143102:143169" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="143208:143275" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="143313:143380" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="143419:143486" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="143526:143593" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="143630:143697" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="143735:143802" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="143846:143913" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="143951:144018" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="144062:144129" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="144170:144237" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="144278:144345" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="144386:144453" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="144500:144567" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="144610:144677" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="144716:144783" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="144822:144889" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="144928:144995" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="145038:145105" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="145153:145220" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="145270:145337" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="145382:145449" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="145488:145555" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="145599:145666" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="145708:145775" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="145819:145886" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="145931:145998" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="146039:146106" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="146144:146211" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="146254:146321" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="146362:146429" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="146475:146542" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="146584:146651" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="146689:146756" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="146795:146862" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="146905:146972" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="147017:147084" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="147130:147197" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="147235:147302" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="147343:147410" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="147452:147519" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="147558:147625" placeholder="{...}" />
-            <marker date="1348389810000" expanded="true" signature="147666:147733" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/_single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="22" selection-start="1223" selection-end="1223" vertical-scroll-proportion="-7.2">
@@ -987,46 +848,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/add.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="27" selection-start="598" selection-end="1083" vertical-scroll-proportion="0.0">
+        <state line="181" column="9" selection-start="6235" selection-end="6235" vertical-scroll-proportion="0.34766355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/index.php">
+    <entry file="file://$PROJECT_DIR$/protected/globals.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="89" selection-start="2895" selection-end="2895" vertical-scroll-proportion="7.2">
+        <state line="8" column="22" selection-start="175" selection-end="185" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="0" selection-start="3315" selection-end="3315" vertical-scroll-proportion="-2.5327103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/_short.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="188" selection-end="188" vertical-scroll-proportion="-5.0">
           <folding>
             <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="tag#div#0;tag#div#1;tag#div#0" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Sets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="6" selection-start="603" selection-end="603" vertical-scroll-proportion="-1.082243">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SetsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="391" selection-end="391" vertical-scroll-proportion="-8.75">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/_multi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="70" selection-start="3370" selection-end="3377" vertical-scroll-proportion="-15.083333">
+        <state line="35" column="14" selection-start="885" selection-end="1274" vertical-scroll-proportion="-7.2">
           <folding>
             <element signature="e#6#267#0" expanded="true" />
-            <marker date="1348969135000" expanded="true" signature="613:633" placeholder="..." />
+            <element signature="e#471#491#0" expanded="true" />
+            <element signature="e#568#587#0" expanded="true" />
+            <marker date="1348977642000" expanded="true" signature="875:895" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/items/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="23" selection-start="5203" selection-end="5203" vertical-scroll-proportion="-8.125">
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#article#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/multi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="36" selection-start="2237" selection-end="2237" vertical-scroll-proportion="1.1767677">
+        <state line="147" column="29" selection-start="4275" selection-end="4429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="6" selection-start="1222" selection-end="1410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/ItemsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="16" selection-start="1241" selection-end="1241" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="104" selection-start="2418" selection-end="2418" vertical-scroll-proportion="-13.75">
+          <folding>
+            <element signature="e#6#83#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#script#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#script#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#script#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#script#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/sets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="4" selection-start="420" selection-end="592" vertical-scroll-proportion="0.28846154">
           <folding />
         </state>
       </provider>
