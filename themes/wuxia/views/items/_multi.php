@@ -14,16 +14,47 @@
 
 ?>
 
-<script id="blankItem" type="text/template">
+<script>
+    var itemsJSON    = [{},{}];
+    var delItemUrl   = "<?php echo $this->createUrl("/items/del")?>";
+    var translateUrl = "<?php echo $this->createUrl("/")."/bing/translator.php" ?>";
+    var saveUrl      = "<?php echo $this->createUrl("/items/save")?>";
+</script>
+
+<script id="itemRow" type="text/template">
     <td class="select-checkbox-td">
         <input type="checkbox" id="select-checkbox" name="select-checkbox" value="1" checked="checked">
         <div style="display:none" class="progress progress-success progress-striped active">
             <div style="width: 100%" class="bar"></div>
         </div>
     </td>
-    <td class="input-word-td"><?php echo CHtml::activeTextField($model, "word",array("tabindex"=>1))?></td>
-    <td class="input-meaning-td"><?php echo CHtml::activeTextField($model, "meaning",array("tabindex"=>1))?></td>
-    <td></td>
+    <td><%=id%></td>
+    <td><%=word%></td>
+    <td><%=meaning%></td>
+    <td><%=sound%></td>
+    <td>
+        <div class="btn-toolbar">
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger del">Del</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-success edit">Edit</button>
+            </div>
+        </div>
+    </td>
+</script>
+
+<script id="itemBlank" type="text/template">
+    <td class="select-checkbox-td">
+        <input type="checkbox" id="select-checkbox" name="select-checkbox" value="1" checked="checked">
+        <div style="display:none" class="progress progress-success progress-striped active">
+            <div style="width: 100%" class="bar"></div>
+        </div>
+    </td>
+    <td><%if(typeof(id) != "undefined") {%><%=id%><%}%></td>
+    <td><input type="text" value="<%=word%>" maxlength="45" id="Items_word" name="Items[word]" tabindex="1"></td>
+    <td><input type="text" value="<%=meaning%>" maxlength="255" id="Items_meaning" name="Items[meaning]" tabindex="1"></td>
+    <td><input type="text" value="<%=sound%>" maxlength="255" id="Items_sound" name="Items[sound]"></td>
     <td>
         <div class="btn-toolbar">
             <div class="btn-group">
@@ -32,6 +63,9 @@
             <div class="btn-group">
                 <button type="button" class="btn btn-info trans">Trans</button>
                 <button type="button" class="btn btn-success save">Save</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-inverse cancel">Cancel</button>
             </div>
         </div>
     </td>
@@ -53,6 +87,7 @@
                 <thead>
                 <tr>
                     <th>#</th>
+                    <th>ID</th>
                     <th>Word</th>
                     <th>Meaning</th>
                     <th>Sound</th>
@@ -105,5 +140,5 @@
 
 <!-- jQuery DataTable -->
 <?php
-    Yii::app()->clientScript->registerScriptFile(Html::jsThemeUrl("items/multi.js"));
+    Yii::app()->clientScript->registerScriptFile(Html::jsThemeUrl("sets/index.js"));
 ?>
