@@ -19,6 +19,7 @@
 
 <script>
     var itemsJSON    = <?php echo CJSON::encode($set->items)?>;
+    var updateUrl    = "<?php echo $this->createUrl("items/update")?>";
 </script>
 
 <script id="itemQuiz" type="text/template">
@@ -42,6 +43,16 @@
                     </ul>
                 </nav>
             </div>
+        </div>
+    </div>
+</script>
+
+<script id="quizAnswer" type="text/template">
+    <div class="row">
+        <div class="hero-unit blow span4 offset3">
+            <h1><%=meaning%> !</h1>
+            <p>is the meaning of <strong style="font-size: 25px"><%=word%></strong></p>
+            <button class="btn btn-success ok">OK</button>
         </div>
     </div>
 </script>

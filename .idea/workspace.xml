@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6630803b-8499-40db-a5a3-d3354ff1e045" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/wuxia/js/sets/play.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/wuxia/views/sets/play.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/wuxia/views/items/_items.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/wuxia/views/items/_multi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/wuxia/views/items/_single.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.flip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.flippy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/wuxia/js/items/import.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/wuxia/views/sets/_blocktext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/wuxia/views/sets/import.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/js/sets/play.js" afterPath="$PROJECT_DIR$/themes/wuxia/js/sets/play.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/wuxia/views/sets/play.php" afterPath="$PROJECT_DIR$/themes/wuxia/views/sets/play.php" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,36 +38,55 @@
       <file leaf-file-name="play.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/play.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="20" selection-start="4653" selection-end="4653" vertical-scroll-proportion="-12.583333">
-              <folding>
-                <element signature="e#6#240#0" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_multi.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/_multi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="28" selection-start="4317" selection-end="4317" vertical-scroll-proportion="-0.083333336">
+            <state line="32" column="31" selection-start="1026" selection-end="1026" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/wuxia/js/sets/play.js">
+      <file leaf-file-name="SetsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/SetsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="83" selection-start="372" selection-end="372" vertical-scroll-proportion="0.17676768">
+            <state line="228" column="57" selection-start="6696" selection-end="6696" vertical-scroll-proportion="-4.92">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_view.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/views/sets/_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="57" selection-start="371" selection-end="371" vertical-scroll-proportion="0.3558394">
               <folding>
-                <element signature="e#0#163#0" expanded="false" />
+                <element signature="e#1026#1578#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sets.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/Sets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="5" selection-start="3594" selection-end="3594" vertical-scroll-proportion="-18.833334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_blocktext.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/_blocktext.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="16" selection-start="513" selection-end="517" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/import.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="54" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +94,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wuxia/js/sets/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="41" selection-start="911" selection-end="940" vertical-scroll-proportion="0.0">
+            <state line="168" column="8" selection-start="4923" selection-end="5095" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,22 +113,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/themes/wuxia/views/items/translate.php" />
-        <option value="$PROJECT_DIR$/bing/translator.php" />
-        <option value="$PROJECT_DIR$/themes/wuxia/views/items/_single.php" />
-        <option value="$PROJECT_DIR$/themes/wuxia/js/items/add.js" />
-        <option value="$PROJECT_DIR$/themes/wuxia/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/themes/wuxia/views/sets/_short.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/js/items/itemsview.js" />
         <option value="$PROJECT_DIR$/themes/wuxia/js/items/multi.js" />
         <option value="$PROJECT_DIR$/themes/wuxia/views/items/index.php" />
-        <option value="$PROJECT_DIR$/themes/wuxia/views/sets/index.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/js/sets/index.js" />
         <option value="$PROJECT_DIR$/themes/wuxia/views/items/_multi.php" />
         <option value="$PROJECT_DIR$/protected/controllers/ItemsController.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SetsController.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/views/sets/play.php" />
         <option value="$PROJECT_DIR$/themes/wuxia/js/sets/play.js" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/sets/view.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/sets/import.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/sets/_blocktext.php" />
+        <option value="$PROJECT_DIR$/themes/wuxia/js/items/import.js" />
+        <option value="$PROJECT_DIR$/themes/wuxia/views/sets/index.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SetsController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/CategoriesController.php" />
       </list>
     </option>
   </component>
@@ -220,6 +242,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -460,13 +483,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,11 +570,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/themes/wuxia/js/libs" />
-      <recent name="$PROJECT_DIR$/bing" />
-      <recent name="$PROJECT_DIR$/themes/wuxia" />
-      <recent name="$PROJECT_DIR$/themes" />
-      <recent name="$PROJECT_DIR$/protected" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css/bootstrap" />
+      <recent name="$PROJECT_DIR$/js/bootstrap" />
+      <recent name="$PROJECT_DIR$/themes/wuxia/js/items" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/wuxia/views/sets" />
@@ -579,8 +647,8 @@
       <method />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.translator.php" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.Debug Add" />
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.Debug Add" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.translator.php" />
       <item index="2" class="java.lang.String" itemvalue="PHPUnit.vocal" />
     </list>
     <recent_temporary>
@@ -644,7 +712,11 @@
       <created>1349075533215</created>
       <updated>1349075533215</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add simple play">
+      <created>1349087092709</created>
+      <updated>1349087092709</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -664,22 +736,23 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17884323" sideWeight="0.6714976" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Framework MVC Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16818874" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17884323" sideWeight="0.6714976" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17275494" sideWeight="0.3252818" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17275494" sideWeight="0.66344607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework MVS Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14992389" sideWeight="0.6714976" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework MVC Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -720,7 +793,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new items - merge js file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add simple play" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -740,6 +813,7 @@
     <MESSAGE value="translate and translate all" />
     <MESSAGE value="List Items" />
     <MESSAGE value="add new items - merge js file" />
+    <MESSAGE value="add simple play" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,119 +821,108 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/sets/play.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="65" selection-start="971" selection-end="971" vertical-scroll-proportion="13.08">
+        <state line="130" column="12" selection-start="3795" selection-end="3795" vertical-scroll-proportion="0.41919193">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="9" selection-start="6235" selection-end="6235" vertical-scroll-proportion="0.34766355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/globals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="175" selection-end="185" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="3315" selection-end="3315" vertical-scroll-proportion="-2.5327103">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/_short.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="188" selection-end="188" vertical-scroll-proportion="-5.0">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Sets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="6" selection-start="603" selection-end="603" vertical-scroll-proportion="-1.082243">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/ItemsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="105" selection-end="105" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SetsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="27" selection-start="1031" selection-end="1031" vertical-scroll-proportion="-15.958333">
-          <folding />
-        </state>
+        <state line="22" column="47" selection-start="0" selection-end="4790" vertical-scroll-proportion="0.6214689" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/add.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="6" selection-start="1222" selection-end="1410" vertical-scroll-proportion="0.2929293">
-          <folding />
-        </state>
+        <state line="54" column="6" selection-start="1222" selection-end="1410" vertical-scroll-proportion="1.3636364" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/multi.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="29" selection-start="4275" selection-end="4429" vertical-scroll-proportion="3.7121212">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="91" selection-start="194" selection-end="380" vertical-scroll-proportion="0.18850988">
+        <state line="605" column="9" selection-start="20646" selection-end="20646" vertical-scroll-proportion="0.34649912">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/wuxia/js/sets/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="41" selection-start="911" selection-end="940" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/_multi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="28" selection-start="4317" selection-end="4317" vertical-scroll-proportion="-0.083333336">
+        <state line="168" column="8" selection-start="4923" selection-end="5095" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/play.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="20" selection-start="4653" selection-end="4653" vertical-scroll-proportion="-12.583333">
-          <folding>
-            <element signature="e#6#240#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state line="32" column="31" selection-start="1026" selection-end="1026" vertical-scroll-proportion="-0.625">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/sets/play.js">
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="83" selection-start="372" selection-end="372" vertical-scroll-proportion="0.17676768">
+        <state line="28" column="28" selection-start="919" selection-end="934" vertical-scroll-proportion="0.5607477" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="116" selection-end="116" vertical-scroll-proportion="-0.053859964" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/views/sets/_blocktext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="16" selection-start="513" selection-end="517" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wuxia/js/items/import.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="54" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Sets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="5" selection-start="3594" selection-end="3594" vertical-scroll-proportion="-18.833334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="16" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.36448598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="67" selection-start="335" selection-end="335" vertical-scroll-proportion="0.37356323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/sets/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="24" selection-start="380" selection-end="380" vertical-scroll-proportion="0.49270073">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SetsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="57" selection-start="6696" selection-end="6696" vertical-scroll-proportion="-4.92">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/sets/_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="57" selection-start="371" selection-end="371" vertical-scroll-proportion="0.3558394">
           <folding>
-            <element signature="e#0#163#0" expanded="false" />
+            <element signature="e#1026#1578#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -31,12 +31,14 @@ $(document).ready(function(){
     });
 
     var QuizView = Backbone.View.extend({
-        el           : "#quizZone",
-        template     : $("#itemQuiz").html(),
-        templateEnd  : $("#quizEnd").html(),
+        el             : "#quizZone",
+        template       : $("#itemQuiz").html(),
+        templateEnd    : $("#quizEnd").html(),
+        templateAnswer : $("#quizAnswer").html(),
         events : {
             "click .yes"      : "yes",
             "click .no"       : "no",
+            "click .ok"       : "render",
             "click .continue" : "continue"
         },
         loop  : 0,
@@ -95,17 +97,25 @@ $(document).ready(function(){
             this.$el.html(tmpl({loop: this.loop}));
             return this;
         },
+        renderAnswer : function(item){
+            var tmpl = _.template(this.templateAnswer);
+            this.$el.html(tmpl(item.toJSON()));
+            return this;
+        },
         yes : function(e){
             e.preventDefault();
 
             $("#true").html(parseInt($("#true").html()) + 1);
+            this.updateStatic("know");
             this.render();
         },
         no : function(e){
             e.preventDefault();
 
             $("#wrong").html(parseInt($("#true").html()) + 1);
-            this.render();
+            this.updateStatic("unknow");
+
+            this.renderAnswer(this.orderedItems[this.next-1]);
         },
         continue: function(e){
             e.preventDefault();
@@ -115,9 +125,23 @@ $(document).ready(function(){
 
             this.next = 0;
             this.render();
+        },
+        updateStatic : function(result){
+            that = this;
+            $.ajax({
+                url: updateUrl,
+                data: {
+                    item_id : that.orderedItems[this.next - 1].get("id"),
+                    result  : result
+                },
+                type: "POST",
+                complete: function(res){
+
+                }
+            });
         }
     });
 
     quizView = new QuizView();
-    //$("#start-quiz").click();
+    $("#start-quiz").click();
 });
