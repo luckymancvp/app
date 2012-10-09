@@ -70,24 +70,22 @@
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".navigation">
                 <span class="icon-chevron-down"></span>
             </button>
-            <a class="brand" href="http://envato.walkingpixels.com/themes/wuxia/">Walking Pixels Wuxia Bootstrap admin template</a>
+            <a class="brand" href="#">Walking Pixels Wuxia Bootstrap admin template</a>
             <nav class="nav-collapse navigation">
                 <ul class="nav" role="navigation">
-                    <li class="active"><a href="index.html" title="Homepage dashboard"><span class="icon-home"></span> Dashboard</a></li>
-                    <li><a href="forms.html" title="Form elements"><span class="icon-tasks"></span> Forms</a></li>
-                    <li><a href="tables.html" title="Static and dynamic tables"><span class="icon-table"></span> Tables</a></li>
-                    <li><a href="typography.html" title="Typography showcase"><span class="icon-font"></span> Typography</a></li>
-                    <li><a href="ui-buttons.html" title="Buttons in navbar!"><span class="icon-magic"></span> UI &amp; Buttons</a></li>
+                    <li class="active"><a href="#" title="Homepage dashboard"><span class="icon-home"></span> Dashboard</a></li>
+                    <li><a href="#" title="Show Category"><span class="icon-tasks"></span> Category</a></li>
+                    <li><a href="#" title="Show Sets"><span class="icon-table"></span> Sets</a></li>
                     <li class="divider-vertical"></li>
-                    <li><a href="#" title="Buttons in navbar!" class="btn-wuxia-navbar"><div class="btn btn-wuxia"><span class="icon-key"></span> Widgets</div></a></li>
+                    <li><a href="#" title="Play!" class="btn-wuxia-navbar"><div class="btn btn-wuxia"><span class="icon-key"></span> Play</div></a></li>
                 </ul>
             </nav>
             <nav class="nav-collapse user">
                 <div class="user-info pull-right">
-                    <img src="#" alt="User avatar">
+                    <img src="http://placekitten.com/35/35" alt="User avatar">
                     <div class="btn-group">
                         <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                            <div><strong>John Pixel</strong>Administrator</div>
+                            <div><strong>Luckymancvp</strong>Administrator</div>
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
